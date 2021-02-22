@@ -49,7 +49,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'hackathon.urls'
+ROOT_URLCONF = 'Object-Seeker.urls'
 
 TEMPLATES = [
     {
@@ -67,7 +67,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'hackathon.wsgi.application'
+WSGI_APPLICATION = 'Object-Seeker.wsgi.application'
 
 
 # Database
